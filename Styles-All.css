@@ -1,0 +1,64 @@
+html, body {
+    font-family: 'Raleway','Roboto', sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    background-color: rgb(93, 93, 93);
+}
+p {
+    color: black;
+    font-family: 'Raleway','Roboto', sans-serif;
+    font-weight:600;
+    font-size: 2em;
+    word-spacing: .2em;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway','Roboto', sans-serif;
+    font-weight:700;
+    font-size: 3.052em;
+    word-spacing: .5em;
+}
+h2 {
+    font-family: 'Raleway','Roboto', sans-serif;
+    font-weight:700;
+    font-size: 2.441em;
+    word-spacing: .2em;
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+}
+a:link {
+    font-size: 1.25em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    text-decoration: line-through;
+    color: #000000
+}
+a:hover {
+    background-color: #222222;
+    text-decoration: none;
+}
+.image_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid black
+}
+.float_img_left {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    border-radius: 8px;
+}
+.float_img_right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    border-radius: 8px;
+}
